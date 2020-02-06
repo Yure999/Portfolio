@@ -1,0 +1,79 @@
+body {
+    background-color: #4c4070;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Teko', sans-serif;
+}
+.col-12{
+    padding: 0;
+}
+div {
+    display: flex;
+    justify-content: center;
+}
+#nameTitle {
+    font-size: 2.6rem;
+}
+.masthead {
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    background: linear-gradient(to bottom, rgba(16, 16, 16, 0.3) 0%, rgba(76, 64, 112, 0.78) 77%, #4c4070 100%), url("../resources/header-wallpapers.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    color: #DDDDDD;
+}
+#pipoesunbuenperro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+}
+.nameTitle{
+    font-size: 4rem;
+}
+.lead{
+    font-size: 2rem ;
+}
+.card-img-top{
+    border-radius: 0; !important;
+    max-height: 450px;
+    min-height:350px ;
+}
+.card{
+    background-color: #4c4070;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: 21px 15px 22px 0px rgba(0,0,0,0.51);
+    -moz-box-shadow: 21px 15px 22px 0px rgba(0,0,0,0.51);
+    box-shadow: 21px 15px 22px 0px rgba(0,0,0,0.51);
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+.card-body{
+    max-height: 50px;
+    background-color: #353535;
+    color: #DDDDDD;
+    padding: 10px;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+.imageText{
+    font-size: 3.5rem;
+    color: #DDDDDD;
+}
+.mdModeText{
+    display: flex;
+    align-items: center;
+}
+.card{
+    width: 23rem;
+}
+@media (max-width: 450px) {
+    .card{
+        width:20rem;
+    }
+}
