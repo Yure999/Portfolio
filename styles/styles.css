@@ -8,6 +8,14 @@ body {
 .col-12{
     padding: 0;
 }
+a{
+    color: #DDDDDD;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: #DDDDDD;
+}
 div {
     display: flex;
     justify-content: center;
