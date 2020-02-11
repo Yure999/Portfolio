@@ -54,6 +54,7 @@ div {
     border-radius: 0; !important;
     max-height: 450px;
     min-height:350px ;
+    min-width: 400px;
 }
 .card{
     background-color: #4c4070;
